@@ -1,0 +1,46 @@
+.h100 {
+    height: 100vh;
+}
+.g-font {
+    font-family: 'Lobster Two', cursive;
+}
+.intro-text {
+    font-size: 500%;
+    visibility: hidden;
+    animation-name: slide-right;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards; 
+}
+.happy-text {
+    animation-delay: 500ms;
+}
+.b-day-text {
+    animation-delay: 750ms;
+}
+.mom-text {
+    animation-delay: 1000ms;
+}
+.confetti {
+    height: 12vh;
+    width: auto;
+    animation-delay: 1000ms
+}
+@keyframes slide-right {
+    from {
+        margin-left: 100vw;
+    }
+    60% {
+        margin-left: 0;
+        visibility: visible;
+    }
+    100% {
+        color: white;
+        visibility: visible;
+    }
+}
+.slide-img {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+}
